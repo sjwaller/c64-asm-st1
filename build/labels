@@ -1,0 +1,16 @@
+rcycle	= $c0b1
+irq	= $c089	; ?
+showmsg	= $c06f
+main	= $c00b	; unused
+write	= $c03d	; ?
+message	= $c0ee	; ?
+colwash	= $c08f	; ?
+flash	= $c055	; ?
+colour	= $c0c1	; ?
+init	= $c000	; unused
+loop	= $c086	; unused
+cycle	= $c097
+text	= $c05e	; ?
+rcolwash	= $c0a9	; unused
+charokay	= $c04c	; ?
+fill	= $c017	; ?
