@@ -1,12 +1,4 @@
 ;============================================================
-; Empty Assembler project with Basic Loader
-; Code by actraiser/Dustlayer
-;
-; http://www.dustlayer.com
-; 
-;============================================================
-
-;============================================================
 ; index file which loads all source code and resources files
 ;============================================================
 
@@ -27,7 +19,7 @@
 * = $c000     				            ; start address for 6502 code
 
 ;============================================================
-;  Main routine with IRQ setup and custom IRQ routine
+;  Main init routine
 ;============================================================
 
 !source "code/init.asm"
@@ -36,7 +28,7 @@
 ;  add additional source files as required
 ;============================================================
 
-!source "code/fill.asm"
+;!source "code/fill.asm"
 
 !source "code/washing.asm"
 
