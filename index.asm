@@ -7,7 +7,7 @@
 ;============================================================
 
 !cpu 6502
-!to "build/st1.prg",cbm    ; output file
+;!to "build/st1.prg",cbm    ; output file
 
 ;============================================================
 ; BASIC loader with start address $c000
@@ -31,4 +31,6 @@
 ;!source "code/fill.asm"
 
 !source "code/washing.asm"
+
+;!source "code/rasters.asm"
 
